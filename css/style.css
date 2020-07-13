@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+    margin-right: 15px;
+}
+
+.btn-sign-in {
+    background-color: #3565ff;
+    color: #FFF;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.btn-sign-in:hover {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    margin: 15em auto 2em;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    width: 25vw;
+    height: 30px;
+    display: flex;
+    flex: 1;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid lightgray;
+}
+
+.btn-form {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+}
+
+.btn-search,
+.btn-luck {
+    border: none;
+    font-weight: 100;
+    border-radius: 8px;
+    width: 8vw;
+    font-size: 15px;
+}
+
+.btn-search:hover,
+.btn-luck:hover {
+    border: 1px solid #bfc9d1;
+    font-weight: 600;
+}
+
+.btn-search {
+    margin-right: 10px;
+}
+
+footer {
+    display: block;
+    margin-top: 290px;
+    width: 100%;
+    text-align: left;
+    padding: 45px 50px;
+}
+
+.footer-google,
+.footer-user {
+    display: inline-block;
+    width: 40%;
+}
+
+.footer-google {
+    text-align: left;
+}
+
+.footer-user {
+    margin-left: 330px;
+    text-align: right;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 15px;
+    color: #000;
+    font-weight: 200;
+}
